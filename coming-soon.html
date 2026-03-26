@@ -36,6 +36,14 @@
       z-index: 5;
     }
 
+    /* Logo top */
+    .uc-logo {
+      display: block;
+      height: 80px;
+      width: auto;
+      margin: 0 auto 20px;
+    }
+
     /* Scissors animation */
     .uc-scissors {
       font-size: 3.5rem;
@@ -425,6 +433,9 @@
     <!-- Main content -->
     <div class="uc-content">
 
+      <!-- Logo -->
+      <img src="logo.png" alt="Kutval logo" class="uc-logo">
+
       <!-- Animated scissors -->
       <div class="uc-scissors" aria-hidden="true">&#9986;</div>
 
@@ -471,17 +482,6 @@
         </a>
       </div>
 
-      <!-- Newsletter -->
-      <div class="uc-newsletter">
-        <p class="uc-newsletter-title">Deja tu email y te avisamos cuando todo est&eacute; listo:</p>
-        <form id="ucNewsletter" action="https://formspree.io/f/TU_ID_AQUI" method="POST">
-          <input type="email" name="email" placeholder="tu@email.com" required aria-label="Tu email">
-          <input type="hidden" name="_subject" value="Nuevo suscriptor - Pagina en construccion Kutval">
-          <input type="hidden" name="_next" value="https://TU-USUARIO.github.io/pack-cultural/gracias.html">
-          <button type="submit" class="btn-primary">Avisadme</button>
-        </form>
-        <p class="uc-legal">Sin spam. Solo novedades que merecen la pena.</p>
-      </div>
 
       <!-- Social links -->
       <div class="uc-social">
