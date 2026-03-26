@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gracias — Kutval</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caveat:wght@400;600;700&family=Patrick+Hand&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 24px;
+    }
+    .gracias-icon { font-size: 4rem; margin-bottom: 16px; }
+    .gracias-title {
+      font-family: var(--font-headline);
+      font-size: clamp(2.2rem, 6vw, 4rem);
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: var(--black);
+    }
+    .gracias-msg {
+      font-family: var(--font-hand);
+      font-size: 1.3rem;
+      color: #555;
+      max-width: 480px;
+      line-height: 1.8;
+      margin-bottom: 30px;
+    }
+    .gracias-back {
+      font-family: var(--font-hand);
+      font-size: 1.1rem;
+      color: var(--black);
+      border-bottom: 2px dashed var(--kraft);
+      padding-bottom: 2px;
+      transition: color 0.3s;
+    }
+    .gracias-back:hover { color: var(--red); }
+  </style>
+</head>
+<body class="paper-kraft">
+  <div class="gracias-icon" aria-hidden="true">&#9986;&#10084;&#65039;</div>
+  <h1 class="gracias-title">Apuntado.</h1>
+  <p class="gracias-msg">
+    Te avisaremos cuando tengamos novedades.<br>
+    Sin spam, lo prometemos.<br>
+    Mientras tanto, echa un vistazo a la tienda.
+  </p>
+  <a href="https://www.etsy.com/shop/Kutval" target="_blank" rel="noopener" class="btn-primary" style="margin-bottom: 20px;">Ver la tienda en Etsy</a>
+  <a href="index.html" class="gracias-back">Volver a la web</a>
+</body>
+</html>
